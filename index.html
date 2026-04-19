@@ -1,13 +1,51 @@
-<!doctype html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>My Google AI Studio App</title>
-  </head>
-  <body>
-    <div id="root"></div>
-    <script type="module" src="/src/main.tsx"></script>
-  </body>
-</html>
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chronos Wheels - Movilidad 2.0</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-slate-900 text-white font-sans">
+    <header class="min-h-screen flex flex-col justify-center items-center text-center p-6 bg-gradient-to-b from-blue-900 to-slate-900">
+        <h1 class="text-6xl font-bold mb-4">CHRONOS WHEELS</h1>
+        <p class="text-xl text-blue-300 max-w-2xl mb-8">Transformando la movilidad tradicional en libertad digital a través de IA y Realidad Virtual.</p>
+        <div class="flex gap-4">
+            <a href="#productos" class="bg-blue-600 hover:bg-blue-500 px-8 py-3 rounded-full font-bold transition">Ver Modelos Smart</a>
+            <a href="#ia" class="border border-blue-400 px-8 py-3 rounded-full font-bold hover:bg-blue-400/10 transition">Prueba de IA</a>
+        </div>
+    </header>
 
+    <section class="py-20 px-6 max-w-6xl mx-auto">
+        <h2 class="text-3xl font-bold mb-12 text-center">Nuestro Modelo Exponencial (6D)</h2>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+            <div class="bg-slate-800 p-8 rounded-2xl border border-slate-700">
+                <h3 class="text-blue-400 font-bold mb-2">01. Digitalización</h3>
+                <p class="text-slate-400 text-sm">Convertimos un negocio tradicional familiar en una plataforma global accesible.</p>
+            </div>
+            <div class="bg-slate-800 p-8 rounded-2xl border border-slate-700">
+                <h3 class="text-blue-400 font-bold mb-2">03. Disrupción</h3>
+                <p class="text-slate-400 text-sm">Uso de IA para diagnósticos ergonómicos precisos sin salir de casa.</p>
+            </div>
+            <div class="bg-slate-800 p-8 rounded-2xl border border-slate-700">
+                <h3 class="text-blue-400 font-bold mb-2">06. Democratización</h3>
+                <p class="text-slate-400 text-sm">Tecnología de fibra de carbono accesible para todos.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="ia" class="py-20 bg-slate-800/50">
+        <div class="max-w-4xl mx-auto text-center px-6">
+            <h2 class="text-4xl font-bold mb-6">Innovación en cada rueda</h2>
+            <p class="mb-10 text-slate-300">Implementamos Realidad Virtual para que pruebes tu Smart-Alpha en tu propia sala mediante simulaciones 3D.</p>
+            <div class="bg-slate-900 p-10 rounded-3xl border-2 border-blue-500/30 inline-block">
+                <p class="text-blue-400 font-mono italic">"Asistente IA: Configurando medidas ergonómicas..."</p>
+            </div>
+        </div>
+    </section>
+
+    <footer class="py-10 text-center text-slate-500 text-sm border-t border-slate-800">
+        <p>&copy; 2026 Chronos Wheels - De lo tradicional a lo exponencial.</p>
+    </footer>
+</body>
+</html>
